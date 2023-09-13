@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">MERZBOW</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPqkYeyCLT0uRilGwMZl5gQAAAAACAAAAAAAQZgAAAAEAACAAAAB1Ba50OGaIhrQ6wUkQexPtUP/1XwfEUqhp+QxHJGko8AAAAAAOgAAAAAIAACAAAAA0FQZhJuLK16pKa6HpLHE6F0YX1xYWSM2yiq+dUo/4g5AAAAADRXZVG3bLMx5mvp3cG+7whLduAeWFzbMhi4nWVAk6RZhT7W6hax+SGXcJZldcXdhggM0bBPfONI8lvB57qW1anHCJrecdfJ7rHOxuFENtqTPNJgsMeAKw5GjFkTOfyny/8m4sX4K5B8D02xOHbnuS7uASfqAAYnDFLVRhLjGBKDQKbGlD7HxH9HsxN51Fe+pAAAAApFbonuZQVDgt+7xqTmJJmzDmWqlZAoqOIg5Iz8Abxk+s9pz3D7QMpY+vW8JNUYFFBR4mPbDlIyitzFipZB2CdQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPqkYeyCLT0uRilGwMZl5gQAAAAACAAAAAAAQZgAAAAEAACAAAACn2VHxd0m1v0FhnOQyZkLrrbU4SiGKqdndQtMLtXE1YAAAAAAOgAAAAAIAACAAAAAtaLlRawkgxt2LBZAvf1ssvPkAzhTQGYixjBi4Nzs6sJAAAADoB5aCOJzYqz673lAaz2gw5ST0sLBSs5dpnNVerYUDHKk91i67lsAs+Mp7zlvXleVoqCtEfP7jdWXIVwIJYa/uvYhjzUyKibb0+IVlUGfhBF0pbDDFGfQTuS6QqUZ0tArxkdaTp3uNdUjXpa18+b7m+iw+OcyaV1plPWBnmccPVhy05wXdvJGdC0IrQcf1qRVAAAAAzZ4n4eHNkFPl0JvhNMuVO0YaibbVUTSi0DOtPctwmXwvVRgnTYx97ztMaehhdW5d8nCA3WfWDhGL78Q+qrLtPQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -363,6 +363,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -587,13 +589,7 @@
         <LinkedAzureSSISIR />
         <LinkedAzureStorage />
         <RemoteExecutionFolder />
-        <ParameterConfigurationValues>
-          <ConfigurationSetting>
-            <Id>LastModifiedTime</Id>
-            <Name>LastModifiedTime</Name>
-            <Value xsi:type="xsd:dateTime">2023-09-13T23:09:47.963947Z</Value>
-          </ConfigurationSetting>
-        </ParameterConfigurationValues>
+        <ParameterConfigurationValues />
       </Options>
     </Configuration>
   </Configurations>
